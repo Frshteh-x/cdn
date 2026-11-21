@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="">
   <head>
     <meta charset="UTF-8">
@@ -11,3 +12,35 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+=======
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        {{message}}
+
+    </div>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    message : "Hello wordls."
+                    
+                }
+            }
+        })
+
+        app.mount("#app")
+
+    </script>
+
+    
+</body>
+</html>
+>>>>>>> d3262cf943ecf04b1a328d600725979e8cedfe32
